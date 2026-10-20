@@ -1,0 +1,20 @@
+[
+  {"id": "S01", "request": "Plan 3 days in Busan with a KRW 300,000 budget. I love food but avoid hiking.", "failures": {}},
+  {"id": "S02", "request": "2 days in Seoul for 2 people with 400,000 won. We like history and art.", "failures": {}},
+  {"id": "S03", "request": "4 days in Jeju, budget 600k KRW, solo traveller who loves beaches and nature but hates hiking.", "failures": {}},
+  {"id": "S04", "request": "3 days in Gyeongju from Seoul, budget $350, interested in history and culture.", "failures": {}},
+  {"id": "S05", "request": "5 day trip to Busan from Seoul for 2 people, budget 1,000,000 KRW, foodie couple, no shopping.", "failures": {}},
+  {"id": "S06", "request": "Weekend in Seoul with 200,000 KRW, into nightlife and food.", "failures": {}},
+  {"id": "S07", "request": "3 days in Busan with a tight budget of 180,000 KRW, I like views and culture.", "failures": {}},
+  {"id": "S08", "form": {"country": "JP", "city": "Tokyo", "origin_country": "KR", "origin_city": "Seoul", "start_date": "2026-12-04", "days": 4, "travelers": 2, "budget": 2400000, "currency": "KRW", "interests": ["food", "culture"], "avoid": ["hiking"], "style": "standard", "pace": "balanced"}, "failures": {}},
+  {"id": "S09", "form": {"country": "FR", "city": "Paris", "origin_country": "GB", "origin_city": "London", "start_date": "2026-11-12", "days": 3, "travelers": 1, "budget": 900, "currency": "EUR", "interests": ["art", "architecture"], "avoid": ["nightlife"], "style": "standard", "pace": "relaxed"}, "failures": {}},
+  {"id": "S10", "form": {"country": "TR", "city": "Istanbul", "origin_country": "PK", "origin_city": "Lahore", "start_date": "2026-11-20", "days": 5, "travelers": 2, "budget": 650000, "currency": "PKR", "interests": ["history", "food"], "avoid": [], "style": "budget", "pace": "balanced"}, "failures": {}},
+  {"id": "S11", "form": {"country": "US", "city": "New York City", "start_date": "2026-12-10", "days": 3, "travelers": 1, "budget": 1100, "currency": "USD", "interests": ["art", "view", "food"], "avoid": [], "style": "standard", "pace": "packed"}, "failures": {}},
+  {"id": "S12", "request": "Plan 3 days in Busan with a KRW 300,000 budget. I love food but avoid hiking.", "failures": {"weather": 1}, "note": "transient weather API failure"},
+  {"id": "S13", "request": "2 days in Seoul for 2 people with 400,000 won. We like history and art.", "failures": {"weather": 99}, "note": "weather API down"},
+  {"id": "S14", "request": "4 days in Jeju, budget 600k KRW, solo traveller who loves beaches and nature but hates hiking.", "failures": {"booking": 99}, "note": "booking API down"},
+  {"id": "S15", "request": "3 days in Gyeongju from Seoul, budget $350, interested in history and culture.", "failures": {"transport": 99}, "note": "transport API down"},
+  {"id": "S16", "request": "Weekend in Seoul with 200,000 KRW, into nightlife and food.", "failures": {"places": 1}, "note": "transient places API failure"},
+  {"id": "S17", "request": "3 days in Busan with a tight budget of 180,000 KRW, I like views and culture.", "failures": {"places": 99}, "note": "places API down"},
+  {"id": "S18", "form": {"country": "JP", "city": "Tokyo", "origin_country": "KR", "origin_city": "Seoul", "start_date": "2026-12-04", "days": 4, "travelers": 2, "budget": 2400000, "currency": "KRW", "interests": ["food", "culture"], "avoid": ["hiking"], "style": "standard", "pace": "balanced"}, "failures": {"weather": 99, "booking": 1}, "note": "two failures"}
+]

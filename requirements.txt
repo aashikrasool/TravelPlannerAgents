@@ -1,0 +1,6 @@
+langgraph>=1.0
+streamlit>=1.40
+requests>=2.31
+pandas>=2.0
+questionary>=2.0
+pytest>=8.0
